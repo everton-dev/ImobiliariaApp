@@ -1,0 +1,161 @@
+@use '@angular/material' as mat;
+
+@include mat.core();
+
+$theme: mat.define-theme((
+  color: (
+    theme-type: light,
+    primary: mat.$violet-palette,
+    tertiary: mat.$green-palette,
+  ),
+  typography: (
+    brand-family: '"DM Sans", sans-serif',
+  ),
+  density: (scale: 0),
+));
+
+:root {
+  @include mat.all-component-themes($theme);
+
+  --bg:           #F7F4EF;
+  --bg-elevated:  #EFECE5;
+  --surface:      #FFFFFF;
+  --text:         #0D0D0B;
+  --muted:        #726D66;
+  --accent:       #C9A84C;
+  --accent-dark:  #9E7E35;
+  --nav-h:        80px;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'DM Sans', sans-serif;
+  scroll-behavior: smooth;
+}
+
+/* ─── Typography scale ─── */
+h1, h2, h3, h4 {
+  font-family: 'Playfair Display', serif;
+  margin: 0;
+  line-height: 1.15;
+}
+
+h1 { font-size: clamp(2.2rem, 6vw, 4rem); }
+h2 { font-size: clamp(1.8rem, 4vw, 3rem); }
+h3 { font-size: clamp(1.2rem, 3vw, 1.6rem); }
+
+p { margin: 0; line-height: 1.7; }
+
+/* ─── Layout ─── */
+.container {
+  width: min(1180px, 100% - 3rem);
+  margin-inline: auto;
+}
+
+section { scroll-margin-top: var(--nav-h); }
+
+/* ─── Eyebrow labels ─── */
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 0.75rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.eyebrow-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--accent);
+  animation: pulse 2s ease-in-out infinite;
+}
+
+/* ─── Reveal animation ─── */
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+
+  &.visible {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* ─── Keyframes ─── */
+@keyframes pulse {
+  0%, 100% { transform: scale(1);   opacity: 1; }
+  50%       { transform: scale(1.4); opacity: 0.6; }
+}
+
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to   { opacity: 1; transform: none; }
+}
+
+/* ─── Gold CTA button ─── */
+.btn-gold {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 14px 32px;
+  background: var(--accent);
+  color: #0D0D0B;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 1rem;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background 0.25s, transform 0.2s, box-shadow 0.25s;
+  box-shadow: 0 4px 14px rgba(201, 168, 76, 0.35);
+
+  &:hover {
+    background: var(--accent-dark);
+    transform: translateY(-2px);
+    box-shadow: 0 8px 24px rgba(201, 168, 76, 0.45);
+  }
+}
+
+.btn-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 13px 32px;
+  background: transparent;
+  color: #0D0D0B;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 600;
+  font-size: 1rem;
+  border: 2px solid rgba(13,13,11,0.4);
+  border-radius: 40px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: border-color 0.25s, background 0.25s;
+
+  &:hover {
+    border-color: #0D0D0B;
+    background: rgba(13,13,11,0.06);
+  }
+}
+
+/* ─── Cards ─── */
+.card-lift {
+  transition: transform 0.3s, box-shadow 0.3s;
+
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 20px 48px rgba(0,0,0,0.1);
+  }
+}

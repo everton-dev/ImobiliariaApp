@@ -1,0 +1,198 @@
+{
+  "site": {
+    "title": { "pt": "Isaque Brito Imóveis", "en": "Isaque Brito Real Estate", "es": "Isaque Brito Inmuebles" },
+    "description": { "pt": "Corretor de imóveis há mais de 20 anos em Pirituba e Freguesia do Ó.", "en": "Real estate agent for over 20 years in Pirituba and Freguesia do Ó.", "es": "Agente inmobiliario por más de 20 años en Pirituba y Freguesia do Ó." },
+    "ogImage": "https://example.com/og-image.jpg",
+    "agentName": "Isaque Brito",
+    "agentCredential": "CRECI 234.567-F",
+    "agentPhone": "5511999998888",
+    "agentPhotoUrl": "https://example.com/agent-photo.jpg",
+    "agentTagline": { "pt": "Corretor de Imóveis", "en": "Real Estate Agent", "es": "Agente Inmobiliario" },
+    "agentBio1": { "pt": "Há mais de 20 anos acompanhando famílias e investidores na realização do sonho da casa própria em Pirituba e Freguesia do Ó.", "en": "For over 20 years guiding families and investors in achieving their dream home in Pirituba and Freguesia do Ó.", "es": "Más de 20 años acompañando a familias e inversores en la realización del sueño de la casa propia en Pirituba y Freguesia do Ó." },
+    "agentBio2": { "pt": "Se tiver alguma dúvida, estou disponível pelo WhatsApp. Sem pressão, sem enrolação.", "en": "If you have any questions, I'm available on WhatsApp. No pressure, no runaround.", "es": "Si tienes alguna duda, estoy disponible por WhatsApp. Sin presión, sin rodeos." },
+    "instagramUrl": "https://instagram.com/example",
+    "defaultLanguage": "pt"
+  },
+  "sections": {
+    "hero": {
+      "enabled": true,
+      "eyebrow": { "pt": "CORRETOR DE IMÓVEIS · ISAQUE BRITO", "en": "REAL ESTATE AGENT · ISAQUE BRITO", "es": "AGENTE INMOBILIARIO · ISAQUE BRITO" },
+      "heading": { "pt": "Seu próximo imóvel está mais perto do que", "en": "Your next property is closer than you", "es": "Tu próxima propiedad está más cerca de lo que" },
+      "headingEmphasis": { "pt": "imagina.", "en": "think.", "es": "imaginas." },
+      "subheading": { "pt": "Há mais de 20 anos vendendo e comprando os melhores imóveis de São Paulo.", "en": "For over 20 years selling and buying the best properties in São Paulo.", "es": "Por más de 20 años vendiendo y comprando las mejores propiedades de São Paulo." },
+      "backgroundImageUrl": "https://example.com/hero-bg.jpg",
+      "ctaPrimary": {
+        "label": { "pt": "CHAMAR NO WHATSAPP", "en": "CONTACT ON WHATSAPP", "es": "CONTACTAR POR WHATSAPP" },
+        "message": { "pt": "Olá Isaque! Gostaria de saber mais sobre os imóveis disponíveis.", "en": "Hi Isaque! I'd like to know more about the available properties.", "es": "Hola Isaque! Me gustaría saber más sobre las propiedades disponibles." }
+      },
+      "ctaSecondaryLabel": { "pt": "VER IMÓVEIS DISPONÍVEIS", "en": "VIEW AVAILABLE PROPERTIES", "es": "VER PROPIEDADES DISPONIBLES" },
+      "ctaSecondaryAnchor": "imoveis",
+      "stats": [
+        { "value": "+20", "label": { "pt": "anos como corretor de imóveis", "en": "years as real estate agent", "es": "años como agente inmobiliario" } },
+        { "value": "+500", "label": { "pt": "imóveis vendidos", "en": "properties sold", "es": "propiedades vendidas" } },
+        { "value": "+1.000", "label": { "pt": "clientes satisfeitos", "en": "satisfied clients", "es": "clientes satisfechos" } }
+      ],
+      "seo": {
+        "title": { "pt": "Início | Isaque Brito Imóveis", "en": "Home | Isaque Brito Real Estate", "es": "Inicio | Isaque Brito Inmuebles" },
+        "description": { "pt": "Corretor de imóveis há mais de 20 anos em Pirituba e Freguesia do Ó. Fale conosco pelo WhatsApp.", "en": "Real estate agent for over 20 years in Pirituba and Freguesia do Ó. Contact us on WhatsApp.", "es": "Agente inmobiliario por más de 20 años en Pirituba y Freguesia do Ó. Contáctanos por WhatsApp." }
+      }
+    },
+    "imoveis": {
+      "enabled": true,
+      "eyebrow": { "pt": "Imóveis Disponíveis", "en": "Available Properties", "es": "Propiedades Disponibles" },
+      "heading": { "pt": "Encontre seu próximo imóvel.", "en": "Find your next property.", "es": "Encuentra tu próxima propiedad." },
+      "ctaAllLabel": { "pt": "Ver Todos", "en": "View All", "es": "Ver Todos" },
+      "ctaPortfolioLabel": { "pt": "Ver Portfólio Completo", "en": "View Full Portfolio", "es": "Ver Portafolio Completo" },
+      "whatsapp": {
+        "message": { "pt": "Olá Isaque! Gostaria de saber mais sobre o imóvel: ", "en": "Hi Isaque! I'd like to know more about the property: ", "es": "Hola Isaque! Me gustaría saber más sobre la propiedad: " }
+      },
+      "listings": [
+        {
+          "id": "example-property-1",
+          "type": { "pt": "Apartamento", "en": "Apartment", "es": "Apartamento" },
+          "address": "Rua Exemplo, 100",
+          "neighborhood": "Bairro Exemplo",
+          "areaM2": 56,
+          "bedrooms": 2,
+          "bathrooms": 1,
+          "parkingSpots": 1,
+          "modality": { "pt": "Venda", "en": "Sale", "es": "Venta" },
+          "price": 400000,
+          "images": ["assets/images/properties/example-1.jpg"],
+          "description": {
+            "pt": "Descrição detalhada do imóvel em português.",
+            "en": "Detailed property description in English.",
+            "es": "Descripción detallada de la propiedad en español."
+          },
+          "amenities": ["🏊 Piscina", "🏋️ Academia", "🔒 Portaria 24h"]
+        }
+      ]
+    },
+    "aboutMe": {
+      "enabled": true,
+      "eyebrow": { "pt": "Quem sou eu e por que me escolher", "en": "Who I am and why choose me", "es": "Quién soy y por qué elegirme" },
+      "heading": { "pt": "O corretor que te guia.", "en": "The agent who guides you.", "es": "El agente que te guía." },
+      "intro": { "pt": "Mais de 20 anos ajudando famílias a comprar certo em Pirituba e Freguesia do Ó. Conheço cada rua, cada negócio, cada detalhe que faz a diferença.", "en": "Over 20 years helping families buy right in Pirituba and Freguesia do Ó. I know every street, every deal, every detail that makes a difference.", "es": "Más de 20 años ayudando a familias a comprar bien en Pirituba y Freguesia do Ó. Conozco cada calle, cada negocio, cada detalle que hace la diferencia." },
+      "cards": [
+        {
+          "icon": "location_on",
+          "iconBg": "#1a1a1a",
+          "heading": { "pt": "Especialista local", "en": "Local specialist", "es": "Especialista local" },
+          "body": { "pt": "Conheço cada rua, cada bairro e cada preço real de Pirituba e Freguesia do Ó para que você faça o melhor negócio.", "en": "I know every street, every neighborhood and every real price in Pirituba and Freguesia do Ó so you make the best deal.", "es": "Conozco cada calle, cada barrio y cada precio real de Pirituba y Freguesia do Ó para que hagas el mejor negocio." }
+        },
+        {
+          "icon": "verified",
+          "iconBg": "#C9A84C",
+          "heading": { "pt": "Transparência do início ao fim", "en": "Transparency from start to finish", "es": "Transparencia de principio a fin" },
+          "body": { "pt": "Você sabe exatamente o que está comprando. Sem surpresas, sem letras miúdas escondidas.", "en": "You know exactly what you're buying. No surprises, no hidden fine print.", "es": "Sabes exactamente lo que estás comprando. Sin sorpresas, sin letras pequeñas ocultas." }
+        },
+        {
+          "icon": "handshake",
+          "iconBg": "#5C4A2A",
+          "heading": { "pt": "Você não fica sozinho", "en": "You're not alone", "es": "No estás solo" },
+          "body": { "pt": "Financiamento, negociação, cartório: cuido de cada etapa para que você não precise se preocupar com nada.", "en": "Financing, negotiation, notary: I take care of every step so you don't have to worry about anything.", "es": "Financiamiento, negociación, notaría: me encargo de cada etapa para que no tengas que preocuparte por nada." }
+        }
+      ],
+      "photoUrl": "https://example.com/agent-photo.jpg",
+      "whatsapp": {
+        "label": { "pt": "Fale Comigo", "en": "Talk to Me", "es": "Habla Conmigo" },
+        "message": { "pt": "Olá Isaque! Gostaria de conhecer seus serviços.", "en": "Hello Isaque! I'd like to know about your services.", "es": "Hola Isaque! Me gustaría conocer tus servicios." }
+      },
+      "seo": {
+        "title": { "pt": "Quem Sou | Isaque Brito Imóveis", "en": "About Me | Isaque Brito Real Estate", "es": "Quién Soy | Isaque Brito Inmuebles" },
+        "description": { "pt": "Conheça Isaque Brito, corretor de imóveis especialista em Pirituba e Freguesia do Ó.", "en": "Meet Isaque Brito, specialist real estate agent in Pirituba and Freguesia do Ó.", "es": "Conoce a Isaque Brito, agente inmobiliario especialista en Pirituba y Freguesia do Ó." }
+      }
+    },
+    "myProcess": {
+      "enabled": true,
+      "eyebrow": { "pt": "Como trabalho", "en": "How I work", "es": "Cómo trabajo" },
+      "heading": { "pt": "Simples.", "en": "Simple.", "es": "Simple." },
+      "headingEmphasis": { "pt": "Sem burocracia desnecessária.", "en": "No unnecessary bureaucracy.", "es": "Sin burocracia innecesaria." },
+      "steps": [
+        {
+          "number": "01",
+          "icon": "chat",
+          "heading": { "pt": "Você me chama", "en": "You contact me", "es": "Tú me contactas" },
+          "body": { "pt": "Me manda mensagem no WhatsApp e conta o que você procura. Em minutos, já estamos conversando.", "en": "Send me a WhatsApp message and tell me what you're looking for. In minutes, we're already talking.", "es": "Mándame un mensaje de WhatsApp y cuéntame lo que buscas. En minutos, ya estamos conversando." }
+        },
+        {
+          "number": "02",
+          "icon": "search",
+          "heading": { "pt": "Eu busco pra você", "en": "I search for you", "es": "Yo busco para ti" },
+          "body": { "pt": "Com base no que você precisa, filtro as melhores opções disponíveis em Pirituba e Freguesia do Ó e apresento somente o que faz sentido para você.", "en": "Based on what you need, I filter the best available options in Pirituba and Freguesia do Ó and present only what makes sense for you.", "es": "Con base en lo que necesitas, filtro las mejores opciones disponibles en Pirituba y Freguesia do Ó y te presento solo lo que tiene sentido para ti." }
+        },
+        {
+          "number": "03",
+          "icon": "check_circle",
+          "heading": { "pt": "Fechamos sem dor de cabeça", "en": "We close without hassle", "es": "Cerramos sin complicaciones" },
+          "body": { "pt": "Financiamento, documentação, negociação: cuido de tudo até a entrega das chaves. Você só precisa aparecer para assinar.", "en": "Financing, documentation, negotiation: I take care of everything until key handover. You just need to show up to sign.", "es": "Financiamiento, documentación, negociación: me encargo de todo hasta la entrega de llaves. Solo tienes que aparecer para firmar." }
+        }
+      ],
+      "whatsapp": {
+        "label": { "pt": "Iniciar meu processo", "en": "Start my process", "es": "Iniciar mi proceso" },
+        "message": { "pt": "Olá Isaque! Quero iniciar o processo de busca por um imóvel.", "en": "Hello Isaque! I want to start the property search process.", "es": "Hola Isaque! Quiero iniciar el proceso de búsqueda de una propiedad." }
+      },
+      "seo": {
+        "title": { "pt": "Como Trabalho | Isaque Brito Imóveis", "en": "How I Work | Isaque Brito Real Estate", "es": "Cómo Trabajo | Isaque Brito Inmuebles" },
+        "description": { "pt": "Veja como Isaque Brito conduz o processo de compra e venda de imóveis.", "en": "See how Isaque Brito conducts the property buying and selling process.", "es": "Conoce cómo Isaque Brito conduce el proceso de compra y venta de inmuebles." }
+      }
+    },
+    "clients": {
+      "enabled": true,
+      "eyebrow": { "pt": "Quem já fechou comigo", "en": "Those who've closed with me", "es": "Quienes han cerrado conmigo" },
+      "heading": { "pt": "Eles estavam no aluguel antes de me conhecer.", "en": "They were renting before they met me.", "es": "Estaban de alquiler antes de conocerme." },
+      "testimonials": [
+        {
+          "quote": { "pt": "O Isaque foi indicação de uma amiga e não me arrependo. Encontrou exatamente o que eu precisava dentro do meu orçamento.", "en": "Isaque was recommended by a friend and I have no regrets. He found exactly what I needed within my budget.", "es": "Isaque fue recomendado por una amiga y no me arrepiento. Encontró exactamente lo que necesitaba dentro de mi presupuesto." },
+          "clientName": "Marcos Oliveira",
+          "location": { "pt": "Comprou em Pirituba", "en": "Bought in Pirituba", "es": "Compró en Pirituba" },
+          "score": 5.0,
+          "avatarColor": "#7B6B52"
+        },
+        {
+          "quote": { "pt": "Processo muito tranquilo e transparente. O Isaque acompanhou cada etapa e sempre foi muito claro com a gente.", "en": "Very smooth and transparent process. Isaque followed every step and was always very clear with us.", "es": "Proceso muy tranquilo y transparente. Isaque acompañó cada etapa y siempre fue muy claro con nosotros." },
+          "clientName": "Patrícia Ramos",
+          "location": { "pt": "Comprou em Freguesia do Ó", "en": "Bought in Freguesia do Ó", "es": "Compró en Freguesia do Ó" },
+          "score": 4.9,
+          "avatarColor": "#5E7A6B"
+        },
+        {
+          "quote": { "pt": "Me ajudou em tudo: financiamento, negociação, cartório. Recomendo demais!", "en": "He helped me with everything: financing, negotiation, notary. Highly recommend!", "es": "Me ayudó en todo: financiamiento, negociación, notaría. ¡Lo recomiendo muchísimo!" },
+          "clientName": "Roberto Santos",
+          "location": { "pt": "Comprou em Pirituba", "en": "Bought in Pirituba", "es": "Compró en Pirituba" },
+          "score": 5.0,
+          "avatarColor": "#5B6B7D"
+        }
+      ],
+      "seo": {
+        "title": { "pt": "Clientes | Isaque Brito Imóveis", "en": "Clients | Isaque Brito Real Estate", "es": "Clientes | Isaque Brito Inmuebles" },
+        "description": { "pt": "Depoimentos de clientes satisfeitos com Isaque Brito Imóveis.", "en": "Testimonials from satisfied clients of Isaque Brito Real Estate.", "es": "Testimonios de clientes satisfechos con Isaque Brito Inmuebles." }
+      }
+    },
+    "contact": {
+      "enabled": true,
+      "heading": { "pt": "Pronto pra sair\ndo aluguel?", "en": "Ready to stop\nrenting?", "es": "¿Listo para dejar\nde alquilar?" },
+      "body": { "pt": "Me manda uma mensagem e conta o que você procura. Sem formulário, sem espera. Respondo no mesmo dia.", "en": "Send me a message and tell me what you're looking for. No form, no waiting. I respond the same day.", "es": "Mándame un mensaje y cuéntame lo que buscas. Sin formulario, sin espera. Respondo el mismo día." },
+      "buttonLabel": { "pt": "Me chame no WhatsApp", "en": "Contact me on WhatsApp", "es": "Contáctame por WhatsApp" },
+      "whatsapp": {
+        "message": { "pt": "Olá Isaque! Gostaria de conversar sobre imóveis.", "en": "Hello Isaque! I'd like to talk about properties.", "es": "Hola Isaque! Me gustaría hablar sobre propiedades." }
+      },
+      "seo": {
+        "title": { "pt": "Fale Conosco | Isaque Brito Imóveis", "en": "Contact | Isaque Brito Real Estate", "es": "Contacto | Isaque Brito Inmuebles" },
+        "description": { "pt": "Entre em contato com Isaque Brito pelo WhatsApp. Resposta no mesmo dia.", "en": "Contact Isaque Brito via WhatsApp. Same-day response.", "es": "Contacta a Isaque Brito por WhatsApp. Respuesta el mismo día." }
+      }
+    },
+    "footer": {
+      "copyrightName": "Isaque Brito Imóveis",
+      "developerLabel": { "pt": "Site desenvolvido com amor", "en": "Site built with love", "es": "Sitio hecho con amor" },
+      "developerUrl": ""
+    }
+  },
+  "nav": {
+    "imoveis": { "pt": "Imóveis", "en": "Properties", "es": "Propiedades" },
+    "aboutMe": { "pt": "Quem Sou", "en": "About Me", "es": "Quién Soy" },
+    "myProcess": { "pt": "Como Trabalho", "en": "How I Work", "es": "Cómo Trabajo" },
+    "clients": { "pt": "Clientes", "en": "Clients", "es": "Clientes" },
+    "contact": { "pt": "Fale Conosco", "en": "Contact", "es": "Contacto" }
+  }
+}

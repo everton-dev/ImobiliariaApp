@@ -1,0 +1,27 @@
+<app-whatsapp-float />
+
+<app-sticky-header [activeSection]="activeSection()" />
+
+<main>
+  @if (config().sections.hero.enabled) {
+    <app-hero />
+  }
+  @if (config().sections.imoveis?.enabled) {
+    <app-imoveis />
+  }
+  <app-agent-highlight />
+  @if (config().sections.aboutMe.enabled) {
+    <app-about-me />
+  }
+  @if (config().sections.myProcess.enabled) {
+    <app-my-process />
+  }
+  @if (config().sections.clients.enabled) {
+    <app-clients />
+  }
+  @if (config().sections.contact.enabled) {
+    <app-contact />
+  }
+</main>
+
+<app-footer />
